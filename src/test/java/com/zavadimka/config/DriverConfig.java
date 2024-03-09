@@ -10,15 +10,15 @@ import org.aeonbits.owner.Config;
 public interface DriverConfig extends Config{
 
     @Key("browser.name")
-    @DefaultValue("some_browser")
+    @DefaultValue("chrome")
     String browserName();
 
     @Key("browser.version")
-    @DefaultValue("latest_version")
+    @DefaultValue("122.0")
     String browserVersion();
 
     @Key("browser.size")
-    @DefaultValue("some_window_size")
+    @DefaultValue("1920x1080")
     String browserSize();
 
 }
